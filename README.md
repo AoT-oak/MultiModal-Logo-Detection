@@ -85,6 +85,17 @@ export ZHIPUAI_API_KEY="your_api_key_here"
 ```cmd
 set ZHIPUAI_API_KEY="your_api_key_here"
 ```
+🔑 如何获取智谱 AI API Key
+本项目使用智谱大模型（GLM-4V）进行视觉语义分析，您需要按照以下步骤获取您的专属 API Key：
+访问官网：前往 智谱 AI 开放平台[点击这里](https://open.bigmodel.cn/)。
+注册与登录：使用手机号或微信完成注册并登录。
+进入控制台：点击页面右上角的 “控制台”。
+
+查看 API Key：
+在左侧菜单栏中选择 “API密钥”。
+您可以直接看到默认生成的 API Key，点击 “复制” 即可。
+如果没有，点击 “添加新的API密钥” 进行创建。
+💡 安全提示：请妥善保管您的 API Key，不要将其直接上传到公开的 GitHub 仓库中，建议使用环境变量进行配置。
 
 ### 准备模型权重
 
