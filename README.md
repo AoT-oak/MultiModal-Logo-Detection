@@ -93,7 +93,7 @@ set ZHIPUAI_API_KEY="your_api_key_here"
 1. `best.pt`: YOLOv8 目标检测微调权重。
 2. `clip-model-offline/`: Hugging Face CLIP 模型的离线完整目录，请将下载的压缩包解压后，整个文件夹放置于根目录。
 您可以前往 [GitHub Releases](https://github.com/AoT-oak/MultiModal-Logo-Detection/releases) 下载，或使用百度网盘加速下载：
-* 🔗 **百度网盘**: [点击这里]([你的网盘链接](https://pan.baidu.com/s/1YYPejOSolF1dN-0OY7Xe5A?pwd=1234)) (提取码: 1234)
+* 🔗 **百度网盘**: [点击这里](https://pan.baidu.com/s/1YYPejOSolF1dN-0OY7Xe5A?pwd=1234) (提取码: 1234)
 
 ### 启动服务
 
@@ -131,7 +131,10 @@ set ZHIPUAI_API_KEY="your_api_key_here"
 ├── requirements.txt       # Python 依赖清单
 ├── .gitignore             # Git 忽略配置 (屏蔽模型权重与日志)
 └── README.md              # 项目说明文档
-**此目录下除了以上文件，还需要包含best.pt( YOLOv8 目标检测微调权重。)、clip-model-offline(Hugging Face CLIP 模型的离线完整目录，请将下载的压缩包解压后，整个文件夹放置于该目录。)**
+注：
+目录下除了以上文件，还需要包含：
+best.pt( YOLOv8 目标检测微调权重。)
+clip-model-offline(Hugging Face CLIP 模型的离线完整目录，请将下载的压缩包解压后，整个文件夹放置于该目录。)
 ```
 
 ## 版本更迭
